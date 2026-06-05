@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Configuração Básica do Ambiente */
+    "target": "es2022",                               /* Define a versão do JavaScript de saída */
+    "module": "commonjs",                             /* Especifica a geração do código do módulo */
+    "lib": ["DOM", "ES2022"],                         /* Inclui as bibliotecas do DOM para reconhecer document, window, etc. */
+    
+    /* Caminhos de Saída (Adequados à imagem) */
+    "rootDir": "./",                                  /* A raiz dos arquivos fontes é a própria pasta atual */
+    "outDir": "./",                                   /* O arquivo .js compilado será gerado na mesma pasta atual */
+
+    /* Verificações de Qualidade e Segurança */
+    "strict": true,                                   /* Ativa todas as verificações estritas de tipo (essencial para o ambiente acadêmico) */
+    "noImplicitAny": true,                            /* Garante que expressões com tipo 'any' implícito gerem erro */
+    "strictNullChecks": true,                         /* Garante tratamento seguro de valores null ou undefined */
+    "esModuleInterop": true,                          /* Melhora a compatibilidade com módulos JS tradicionais */
+    "skipLibCheck": true,                             /* Pula a checagem de tipos dos arquivos de declaração (.d.ts) para acelerar a compilação */
+    "forceConsistentCasingInFileNames": true         /* Garante que o caso das letras importe nos imports */
+  },
+  "include": [
+    "app.ts"
+  ]
+}
